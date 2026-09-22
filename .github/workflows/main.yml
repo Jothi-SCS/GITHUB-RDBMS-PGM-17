@@ -20,6 +20,5 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Run Test Cases
-        run: |
-          python autograder/grade.py
+      - name: Run Autograder
+        run: python autograder/grade.py
